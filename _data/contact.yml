@@ -2,17 +2,18 @@
 
 - type: github
   icon: "fab fa-github"
+  noblank: true
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
   noblank: true
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: false # open link in current tab
+
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
@@ -31,9 +32,9 @@
 #   icon: 'fa-brands fa-bluesky'
 #   url: ''                   # Fill with your Bluesky profile link
 #
-# - type: reddit
-#   icon: 'fa-brands fa-reddit'
-#   url: ''                   # Fill with your Reddit profile link
+- type: reddit
+  icon: "fa-brands fa-reddit"
+  url: "https://www.reddit.com/user/-BlxckLotus-/" # Fill with your Reddit profile link
 #
 # - type: threads
 #   icon: 'fa-brands fa-threads'
